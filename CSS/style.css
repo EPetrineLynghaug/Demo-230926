@@ -1,7 +1,64 @@
 body{
     color: #fafafa;
-    background-color: #121212;
+    background-color: #121212;   
 }
 nav ul li a{
-    color: #fafafa;
+    color: #fafafa; 
+   
 }
+
+ul {
+    /*border: 1px solid white;*/
+    list-style-type: none;
+    display: block;
+    padding-left: 0;
+
+}
+li {
+    border: 1px solid green;
+    float: left;
+    margin-right: 10px;
+    background-color: pink;
+    color: blue;
+}
+li a{
+    text-decoration: none;
+    color: fff;
+    padding: 2px 5px;
+    /*border: 1px solid black;*/
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+
+}
+li:nth-child(1){
+    #float: right; 
+}
+li a:hover{
+    background: #fff;
+    color: #000;
+}
+
+
+
+
+
+/*.grid-container {
+    grid-template-areas:
+    'nav nav nav'
+    'main main main'
+    'footer footer footer';
+
+    display: grid;
+        grid-template-columns: 100px 1fr 1fr;
+        grid-template-rows: 100px 1fr 1fr;
+        gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+    
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        width: 100%;
+        height: 100vh;
+        margin: auto;
+    }*/
+    
