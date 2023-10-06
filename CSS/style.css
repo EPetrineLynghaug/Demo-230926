@@ -7,7 +7,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url("/img/bakrund.avif");
+    background-image: url("media/bakrund.avif");
     background-size: cover;
     background-repeat: no-repeat;
     font-family: Helvetica, Arial, sans-serif;
@@ -72,8 +72,8 @@ li.special{
 
 }
 
-h1,h2,h3{
-    margin-bottom: 6px;
+h1{
+    *margin-bottom: 6px;
     clear: both;
     text-align: center;
     margin-top: 35%;
@@ -81,8 +81,12 @@ h1,h2,h3{
     den ikke gjør det. MÅ SETTES PÅ DET FØRSTE ELE SOM KOMMER ETTER EN FLOAT*/
 }
 
-p{
-    margin-bottom: 3px;
+h2{
+  margin: 20px;
+}
+
+p{/*margin-bottom: 20px;*/
+   margin: 20px;
 }
 
 /*h1,h2,h3 og p gjør at du lettere kan kontrollere margen inni. altså marin- bottom- */
@@ -110,11 +114,8 @@ figure.polaroid > figcaption {
   padding: 22px 20px 42px 20px;
 }
 
-div.test-1 {
-  /* border: 10px solid #fed;*/ 
-}
-
 div.test-1 figure.polaroid {
   width: 25%;
   float: left;
 }
+
