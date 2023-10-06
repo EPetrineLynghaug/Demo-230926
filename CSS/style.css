@@ -7,10 +7,10 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url("media/bakrund.avif");
+    background-image: url("./media/BK.JPG");
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "Helvetica", Arial, sans-serif;
 }
   
 
@@ -24,10 +24,10 @@ nav ul{
     padding-left: 0;
     width: 200px;
     /*lar deg sette bredden  på inline block*/
-    position: abseloutt;
+    position: relative;
     right: 50px;
     width: 350px;
-    height: 50px
+    height: 50px;
     /*med block */
 }
 nav li{
@@ -73,7 +73,7 @@ li.special{
 }
 
 h1{
-    *margin-bottom: 6px;
+    margin-bottom: 6px;
     clear: both;
     text-align: center;
     margin-top: 35%;
