@@ -76,7 +76,7 @@ h1{
     margin-bottom: 6px;
     clear: both;
     text-align: center;
-    margin-top: 6%;
+    margin-top: 35%;
     /*Selvom dette kommer etter en flyt skal jeg oppføre meg soom om 
     den ikke gjør det. MÅ SETTES PÅ DET FØRSTE ELE SOM KOMMER ETTER EN FLOAT*/
 }
