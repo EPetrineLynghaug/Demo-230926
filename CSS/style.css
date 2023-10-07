@@ -125,7 +125,7 @@ div.test-1 figure.polaroid {
   margin: 30px auto;
   width: 400px;
   padding: 1em;
-  border: 1px solid #CCC;
+  border: 1px solid #9e9d9d;
   border-radius: 1em;
 }
 
@@ -156,7 +156,7 @@ div.test-1 figure.polaroid {
   font: 1em sans-serif;
   width: 300px;
   box-sizing: border-box;
-  border: 1px solid red;
+  border: 1px solid black;
   outline: none;
   transition: border 1s, background-color 1s;
 }
